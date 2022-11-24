@@ -286,7 +286,7 @@
                   Save
                 </button>
               </div>
-              <div>
+              <div @click="showAddress">
                 <button
                   class="btn btn-md my-2 mx-2 px-6 py-2 w-24"
                   @click="M3 = false"
